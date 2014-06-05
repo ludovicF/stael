@@ -1,0 +1,10 @@
+from triangle_suite import*
+x = "none"
+x = input("Voulez vous cahnger la valeur de DÉBOGUE (False par défaut)? (y or n) ")
+if x == "y":
+    DÉBOGUE = input("True or False ")
+y = "none"
+y = input("Voulez vous cahnger la valeur de TOLÉRANCE (1e-18 par défaut)? (y or n) ")
+if y == y:
+    TOLÉRANCE = input("Veuillez inscrire votre tolérence sous la forme 1e-x ")
+print(x, DÉBOGUE, TOLÉRANCE)
